@@ -9,3 +9,20 @@ There are two more measures ‘Line Fill Rate (LIFR)’ and ‘Volume Fill Rate(
 
 Line fill rate= Number of lines where order is filled/ Total number of lines
 Volume fill rate = volume shipped complete / total ordered volume
+
+
+**Dataset**
+
+Before going into the analysis, let's look at all the tables used in this project. The six tables used in this project are:
+
+dim_customers: This table contains all the information about customers
+
+dim_date: Contains the dates at daily, monthly levels, and week numbers of the year
+
+dim_products: Contains all the information about the products
+
+dim_order_lines: Contains information about orders and each item inside the orders.
+
+dim_orders_aggregate: Contains information about OnTime, InFull and OnTime In full information aggregated at the order level per customer
+
+dim_targets_orders: This table contains all target data at the customer level
